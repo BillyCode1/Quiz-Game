@@ -1,6 +1,6 @@
 print("Hello there!")
 
-playing = input("Do you want to play a game? ")
+playing = input("Do you want to play a game?\n Yes or No\n ")
 points = 0
 
 if playing != "yes":
@@ -61,3 +61,7 @@ if points < 6:
 
 elif points == 6:
   print(f"Congratulations! you got {points} full points!")
+  
+print(points)
+
+input(" ")
